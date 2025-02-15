@@ -9,11 +9,16 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is a simple 4 bit adder circuit. I built it out of the following digital logic gates:
+AND
+XOR
+OR
+It has a 5 bit output to handle overflow.
 
 ## How to test
+The inputs are elementwise pairs. So the first two input pins will be the least significant bit of both numbers. The next two input pins will be the second least significant bit of both numbers. 
 
-Explain how to use your project
+If you'd like to test it, two a 4 bit number addition on paper, and try to do it using the circuit. the results should be the same
 
 ## External hardware
 
